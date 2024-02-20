@@ -8,11 +8,6 @@
     <link rel="stylesheet" href="css/media.css">
   </head>
   <body>
-    <header>
-      <div class="container">
-
-      </div>
-    </header>
 
     <section class="all_get_free">
       <div class="container">
@@ -30,33 +25,34 @@
       </div>
     </section>
 
-    <div class="page">
-      <form action="" class="js-form" novalidate>
-        <div class="form__group">
-          <input type="text" class="input js-input" name="name" placeholder="Name">
-        </div>
-        <div class="form__group">
-          <input type="email" class="input js-input js-input-email" name="email" placeholder="Email">
-        </div>
-        <div class="form__group">
-          <input type="tel" class="input js-input js-input-phone" name="phone" placeholder="Phone">
-        </div>
-        <div class="form__group">
-          <input type="checkbox" class="checkbox__input js-input-checkbox" id="privacy_check">
-          <label for="privacy_check" class="checkbox__label">Accert privacy polity</label>
-        </div>
-        <button class="btn" type="submit">
-          Sumpit form
-        </button>
-      </form>
-    </div>
-
-    <footer>
-      <div class="container">
-
+  <div class="container">
+    <form id="form" action="/">
+      <h1>qwertyuiop</h1>
+      <div class="input-control">
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text">
+        <div class="error"></div>
       </div>
-    </footer>
+      <div class="input-control">
+        <label for="email">Email</label>
+        <input id="email" name="username" type="text">
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+        <div class="error"></div>
+      </div>
+      <div class="input-control">
+        <label for="password">Password again</label>
+        <input id="password2" name="password2" type="password">
+        <div class="error"></div>
+      </div>
+      <button type="submit">Sign Up</button>
 
+    </form>
+  </div>
+  
     <script src="js/core.js"></script>
   </body>
 </html>
