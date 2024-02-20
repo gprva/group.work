@@ -116,7 +116,7 @@ input, button, textarea {
 .flex{
 	display: flex;
 }
-.btn {
+/* .btn {
 	display: inline-block;
 	border: none;
 	outline: none;
@@ -157,4 +157,5 @@ input, button, textarea {
   }
   .btn:hover {
 	background: linear-gradient(180deg, #FF4D00 0%, #FF6B00 15.62%, #FF8700 92.19%, #FFB800 100%);
-  }
+  } */
+  
