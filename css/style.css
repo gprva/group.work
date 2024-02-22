@@ -261,3 +261,12 @@ text-align: left;
   .container .box .content p {
 	padding: 20px;
   }
+.ques_left{
+	align-self: center;
+}
+  .ques_cards{
+	gap: 4%;
+  }
+  .ques_right img{
+	width: auto;
+  }
