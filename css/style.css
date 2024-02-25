@@ -406,3 +406,39 @@ svg{
 
 	}
 }
+.read_card_tit{
+font-family: Lato;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+border-bottom: 1px solid #a5a5a5;
+color: #1E212C;
+margin-bottom: 30px;	
+padding-bottom: 30px;
+}
+.read_card_txt{
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+width: 310px;
+margin-bottom: 71px;
+color: #787A80;
+}
+.read_tit{
+font-family: Lato;
+font-size: 46px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+margin-bottom: 60px;
+text-align: center;
+}
+.read_img img{
+	width: 26%;
+}
