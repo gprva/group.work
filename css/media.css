@@ -13,6 +13,12 @@
 	.get_free{
 		flex-wrap: wrap;
 	}
+	.ques_cards{
+		flex-wrap: wrap;
+	}
+	.ques_left{
+		margin-bottom: 10%;
+	}
 }
 @media screen and (max-width: 780px) {
 	.container{

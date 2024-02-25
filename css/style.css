@@ -221,7 +221,6 @@ text-align: left;
 /* accardion */
 .container .box {
 	position: relative;
-	margin-bottom: 20px; /* Нижний отступ между элементами аккордеона */
   }
   
   .container .box:last-child {
@@ -231,23 +230,22 @@ text-align: left;
   .container .box .label {
 	position: relative;
 	padding: 20px; /* Внутренний отступ для видимой части */
-	background-color: darkblue; /* Цвет элемента аккордеона */
-	color: #fff; /* Цвет шрифта элемента аккордеона */
+	color: #000000; /* Цвет шрифта элемента аккордеона */
 	cursor: pointer; /* Меняем курсор при наведении */
   }
   
-  .container .box .label::after {
+  .container .box .label::before {
 	content: "+"; /* Задаем иконку "+" для элемента аккордеона */
 	position: absolute;
 	top: 50%; /* Выравнивание по центру */
 	transform: translateY(-50%);
-	right: 20px;
+	left: -1%;
 	font-size: 25px;
 	font-weight: bold;
   }
   
-  .container .box.active .label::after {
-	content: "\2014"; /* Меняем иконку на "-" при нажатии на элемент */
+  .container .box.active .label::before {
+	content: "-"; /* Меняем иконку на "-" при нажатии на элемент */
   }
   
   .container .box .content {
@@ -259,14 +257,44 @@ text-align: left;
   }
   
   .container .box .content p {
-	padding: 20px;
+	color: #787A80;
+	width: 556px;
   }
 .ques_left{
 	align-self: center;
 }
   .ques_cards{
 	gap: 4%;
+	justify-content: center;
   }
-  .ques_right img{
-	width: auto;
-  }
+
+/* прогресбар */
+.skill{
+	width: 160px;
+	height: 160px;
+	position: relative;
+}
+.outer{
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	padding: 20px;
+	box-shadow:  6px 6px 10px -1px rgba(0, 0, 0, 0.15)
+				 -6px -6px 10px -1px rgba(255, 255, 255, 0.7)}
+.inner{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2)
+				inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+			-0.5px -0.5px 0px rgba(255, 255, 255, 1),
+			0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+			0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+#number{
+	font-weight: 600px;
+	color: #555;
+}
