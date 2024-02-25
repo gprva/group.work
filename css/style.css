@@ -442,3 +442,7 @@ text-align: center;
 .read_img img{
 	width: 26%;
 }
+.read_cards{
+	gap: 7%;
+	justify-content: center;
+}
