@@ -437,7 +437,6 @@ line-height: 60px;
 letter-spacing: 0em;
 text-align: left;
 margin-bottom: 60px;
-text-align: center;
 }
 .read_img img{
 	width: 26%;
@@ -445,5 +444,12 @@ text-align: center;
 }
 .read_cards{
 	gap: 7%;
-	justify-content: center;
+	justify-content: space-around;
+}
+.read_card{
+	background: white;
+	padding: 3%;
+}
+.read{
+	background: #F4F5F6;
 }
