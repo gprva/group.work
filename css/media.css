@@ -19,6 +19,12 @@
 	.ques_left{
 		margin-bottom: 10%;
 	}
+	.read_cards{
+		flex-wrap: wrap;
+	}
+	.flex{
+		flex-wrap: wrap;
+	}
 }
 @media screen and (max-width: 780px) {
 	.container{
